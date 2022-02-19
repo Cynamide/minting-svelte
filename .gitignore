@@ -2,6 +2,6 @@
 /dist/
 /.vscode/
 .DS_Store
-.env
+
 LICENSE
 README.md
