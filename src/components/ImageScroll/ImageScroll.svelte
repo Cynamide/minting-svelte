@@ -1,5 +1,4 @@
 <script>
-  import { Parallax, ParallaxLayer } from "svelte-parallax";
   const imgData1 = [
     { data: "/images/63.webp" },
     { data: "/images/64.webp" },

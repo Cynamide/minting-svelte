@@ -16,6 +16,7 @@
   import NavBar from "./components/NavBar/NavBar.svelte";
   import UpperBody from "./components/UpperBody/UpperBody.svelte";
   import ImageScroll from "./components/ImageScroll/ImageScroll.svelte";
+  import Roadmap from "./components/RoadMap/Roadmap.svelte";
 
   /***********************************/
   // Customise the app by changing the following variables.
@@ -160,13 +161,15 @@
             <a
               href={$userState.solanaExplorerLink}
               target="_blank"
-              class="text-purple-700 font-semibold  p-1"
+              class="text-[#6B3B43] font-semibold  p-1"
               >View on Solana Explorer</a
             >
           {/if}
         </div>
       </div>
     </div>
+    <div class="h-48" />
+    <Roadmap />
     <div class="h-24" />
   {/if}
 </main>
