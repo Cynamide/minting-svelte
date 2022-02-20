@@ -16,7 +16,7 @@
   import NavBar from "./components/NavBar/NavBar.svelte";
   import UpperBody from "./components/UpperBody/UpperBody.svelte";
   import ImageScroll from "./components/ImageScroll/ImageScroll.svelte";
-  import Roadmap from "./components/RoadMap/Roadmap.svelte";
+  import Roadmap from "./components/Roadmap/Roadmap.svelte";
 
   /***********************************/
   // Customise the app by changing the following variables.
