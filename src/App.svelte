@@ -129,6 +129,7 @@
     <NavBar />
     <UpperBody />
     <ImageScroll />
+
     <div class="h-48" />
     <!-- Card -->
     <div
