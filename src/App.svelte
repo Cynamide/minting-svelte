@@ -17,6 +17,7 @@
   import UpperBody from "./components/UpperBody/UpperBody.svelte";
   import ImageScroll from "./components/ImageScroll/ImageScroll.svelte";
   import Roadmap from "./components/Roadmap/Roadmap.svelte";
+  import Countdown from "./components/Countdown/Countdown.svelte";
 
   /***********************************/
   // Customise the app by changing the following variables.
@@ -169,6 +170,7 @@
         </div>
       </div>
     </div>
+    <Countdown />
     <div class="h-48" />
     <Roadmap />
     <div class="h-24" />

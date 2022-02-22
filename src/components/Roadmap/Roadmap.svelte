@@ -13,7 +13,7 @@
         class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
       >
         <div
-          class="flex-shrink-0 w-24 h-24 bg-[#FFB6C2] text-[#6B3B43] rounded-full inline-flex items-center justify-center"
+          class="flex-shrink-0 w-24 drop-shadow-md h-24 bg-[#FFB6C2] text-[#6B3B43] rounded-full inline-flex items-center justify-center"
         >
           <svg
             fill="none"
@@ -60,7 +60,7 @@
         class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
       >
         <div
-          class="flex-shrink-0 w-24 h-24 bg-[#FFB6C2] text-[#6B3B43] rounded-full inline-flex items-center justify-center"
+          class="flex-shrink-0 w-24 drop-shadow-md h-24 bg-[#FFB6C2] text-[#6B3B43] rounded-full inline-flex items-center justify-center"
         >
           <svg
             fill="#6B3B43"
@@ -165,7 +165,7 @@
         class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
       >
         <div
-          class="flex-shrink-0 w-24 h-24 bg-[#FFB6C2] text-[#6B3B43] rounded-full inline-flex items-center justify-center"
+          class="flex-shrink-0 w-24 drop-shadow-md h-24 bg-[#FFB6C2] text-[#6B3B43] rounded-full inline-flex items-center justify-center"
         >
           <svg
             fill="#6B3B43"
@@ -221,7 +221,7 @@
         class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
       >
         <div
-          class="flex-shrink-0 w-24 h-24 bg-[#FFB6C2] text-[#6B3B43] rounded-full inline-flex items-center justify-center"
+          class="flex-shrink-0 w-24 drop-shadow-md h-24 bg-[#FFB6C2] text-[#6B3B43] rounded-full inline-flex items-center justify-center"
         >
           <svg
             fill="#6B3B43"

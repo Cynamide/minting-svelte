@@ -45,7 +45,7 @@
   <div class="relative flex">
     {#each imgData1 as m}
       <img
-        class="mx-3 rounded-md h-28 md:h-40 md:mx-5 "
+        class="mx-3 rounded-md h-28 md:h-40 md:mx-5  "
         style="transform: translate( {y < 2 ? y : -y}px,0)"
         src={m.data}
         alt="scrollImage"
