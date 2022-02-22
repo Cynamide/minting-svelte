@@ -1,4 +1,5 @@
 <script>
+  import { scale } from "svelte/transition";
   const imgData1 = [
     { data: "/images/63.webp" },
     { data: "/images/64.webp" },
@@ -53,8 +54,8 @@
     {/each}
   </div>
 </div>
-<div class=" overflow-hidden skew-y-2">
-  <div class="-left-1/2  relative flex ">
+<div class=" overflow-hidden flex skew-y-2">
+  <div class="-left-full relative flex ">
     {#each imgData2 as m}
       <img
         class="mx-3 rounded-md h-28 md:h-40 md:mx-5"

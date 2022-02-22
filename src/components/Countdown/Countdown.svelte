@@ -2,8 +2,6 @@
   import { createEventDispatcher } from "svelte";
   import { onMount, onDestroy, afterUpdate } from "svelte";
   import { candyMachineState, userState } from "../../lib/store";
-  import { tweened } from "svelte/motion";
-  const dispatch = createEventDispatcher();
 
   $: completed = false;
   let timer = null;
@@ -76,7 +74,7 @@
       </div>
     </div>
   {:else}
-    <h1 class="text-3xl text-center mb-3 font-concert-one text-[#6B3B43]">
+    <h1 class="text-2xl text-center mb-3 font-concert-one text-[#6B3B43]">
       The wait is over!
     </h1>
   {/if}

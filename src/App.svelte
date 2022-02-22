@@ -33,7 +33,7 @@
   const candyMachineId = import.meta.env.VITE_APP_CANDY_MACHINE_ID?.toString();
   const opts = { preflightCommitment: "processed" };
 
-  let siteLoading = true;
+  $: siteLoading = true;
   let errorOcurred = false;
   let connection: Connection;
   let provider: Provider;
