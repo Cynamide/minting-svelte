@@ -1,16 +1,22 @@
 <script>
   import * as animateScroll from "svelte-scrollto";
+  function NewDiscordTab() {
+    window.open("https://www.google.co.in/", "_blank");
+  }
+  function NewTwitterTab() {
+    window.open("https://www.google.co.in/", "_blank");
+  }
 </script>
 
-<nav class="border-gray-200 px-2 sm:px-4 py-2.5 rounded ">
+<nav class="border-gray-200  sm:px-4 py-2.5 rounded ">
   <div class="container flex flex-wrap justify-between items-center mx-auto">
     <div class="flex">
-      <a class="h-12 sm:h-18 px-5" href="https://www.google.co.in/"
-        ><img src="discord.svg" alt="discord" /></a
+      <button on:click={NewDiscordTab} class="h-12 sm:h-18 px-5"
+        ><img src="discord.svg" alt="discord" /></button
       >
-      <a class="h-12 sm:h-18 px-5" href="https://www.google.co.in/">
+      <button on:click={NewDiscordTab} class="h-12 sm:h-18 px-5">
         <img src="twitter.svg" alt="twitter" />
-      </a>
+      </button>
     </div>
     <button class="flex" />
     <div class="flex md:pt-0 md:order-2">
