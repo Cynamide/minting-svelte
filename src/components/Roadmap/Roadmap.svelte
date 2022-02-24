@@ -1,5 +1,6 @@
 <section class="text-[#6B3B43] body-font">
-  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+  <h1 class="text-3xl py-12 font-concert-one text-[#6B3B43]">Our Roadmap</h1>
+  <div class="container px-5 py-12 mx-auto flex flex-wrap">
     <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
       <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
         <div class="h-full w-1 bg-[#FFB6C2] pointer-events-none" />
@@ -37,12 +38,15 @@
           </svg>
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 class="font-medium title-font text-[#6B3B43] mb-1 text-xl">
+          <h2
+            class="font-medium title-font text-[#6B3B43] font-concert-one mb-1 text-xl"
+          >
             Join the whitelist
           </h2>
-          <p class="leading-relaxed">
-            VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-            bespoke try-hard cliche palo santo offal.
+          <p class="text-[#6B3B43]">
+            Get included in the official withelist by joining the Discord server
+            and following us on Twitter. Further steps will be provided in the
+            server announcemens.
           </p>
         </div>
       </div>
@@ -142,12 +146,14 @@
           </svg>
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 class="font-medium title-font text-[#6B3B43] mb-1 text-xl">
+          <h2
+            class="font-medium title-font text-[#6B3B43] font-concert-one mb-1 text-xl"
+          >
             Presale
           </h2>
-          <p class="leading-relaxed">
-            VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-            bespoke try-hard cliche palo santo offal.
+          <p class="text-[#6B3B43]">
+            Whitelisted accounts get exclusive access to presale as well as
+            discount on any number of mints. Mint away!
           </p>
         </div>
       </div>
@@ -198,12 +204,14 @@
           </svg>
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 class="font-medium title-font text-[#6B3B43] mb-1 text-xl">
+          <h2
+            class="font-medium title-font text-[#6B3B43] font-concert-one mb-1 text-xl"
+          >
             Public sale
           </h2>
           <p class="leading-relaxed">
-            VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-            bespoke try-hard cliche palo santo offal.
+            Official public sale one day after presale for general public. (Only
+            SOL required to mint)
           </p>
         </div>
       </div>
@@ -257,12 +265,14 @@
           </svg>
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 class="font-medium title-font text-[#6B3B43] mb-1 text-xl">
+          <h2
+            class="font-medium title-font text-[#6B3B43] font-concert-one mb-1 text-xl"
+          >
             NFT rollout
           </h2>
           <p class="leading-relaxed">
-            VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-            bespoke try-hard cliche palo santo offal.
+            Any number of NFTs can be minted by a wallet address. The same can
+            be viewed on marketplace.
           </p>
         </div>
       </div>

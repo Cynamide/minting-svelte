@@ -14,7 +14,7 @@
       <button on:click={NewDiscordTab} class="h-12 sm:h-18 px-5"
         ><img src="discord.svg" alt="discord" /></button
       >
-      <button on:click={NewDiscordTab} class="h-12 sm:h-18 px-5">
+      <button on:click={NewTwitterTab} class="h-12 sm:h-18 px-5">
         <img src="twitter.svg" alt="twitter" />
       </button>
     </div>

@@ -18,6 +18,7 @@
   import ImageScroll from "./components/ImageScroll/ImageScroll.svelte";
   import Roadmap from "./components/Roadmap/Roadmap.svelte";
   import Countdown from "./components/Countdown/Countdown.svelte";
+  import FooterLinks from "./FooterLinks/FooterLinks.svelte";
 
   /***********************************/
   // Customise the app by changing the following variables.
@@ -114,15 +115,8 @@
 
 <main class="h-screen">
   <!-- Error section -->
-  {#if errorOcurred}
-    <div class=" h-full flex">
-      <div class="m-auto">
-        An error occurred. Please check if your environment variables have been
-        populated correctly and redeploy the applcation.
-      </div>
-    </div>
-    <!-- Loading Section -->
-  {:else if siteLoading && !errorOcurred}
+  <!-- Loading Section -->
+  {#if siteLoading && !errorOcurred}
     <div class=" h-full flex">
       <div class="lds-hourglass m-auto" />
     </div>
@@ -131,48 +125,56 @@
     <UpperBody />
     <ImageScroll />
 
-    <div class="h-48" />
-    <!-- Card -->
-    <div
-      class="max-w-lg mx-auto bg-[#FFB6C2] rounded-lg my-12  shadow-lg"
-      transition:fade
-      id="mint-card"
-    >
-      <!-- Top Bar -->
-      <Header />
+    <div id="mint-card" class="h-32" />
+    {#if errorOcurred}
+      <h1
+        class="text-3xl text-center sm:my-12 mb-3 font-concert-one text-[#6B3B43]"
+      >
+        Minting coming soon!
+      </h1>
+    {:else}
+      <!-- Card -->
+      <div
+        class="max-w-lg mx-auto bg-[#FFB6C2] rounded-lg my-12  shadow-lg"
+        transition:fade
+      >
+        <!-- Top Bar -->
+        <Header />
 
-      <br />
-      <!-- Main Body -->
-      <div class="p-6">
-        <img src={IMAGE_LINK} alt="" class=" w-1/2 mx-auto m-5" />
-        <div
-          class=" text-lg sm:text-2xl font-mono font-bold py-5 tracking-wider"
-        >
-          {TITLE}
-        </div>
-        <div class="text-sm sm:text-md font-semibold pb-5 text-[#6B3B43] ">
-          {DESCRTIPTION}
-        </div>
-        <Button {connection} />
+        <br />
+        <!-- Main Body -->
+        <div class="p-6">
+          <img src={IMAGE_LINK} alt="" class=" w-1/2 mx-auto m-5" />
+          <div
+            class=" text-lg sm:text-2xl font-mono font-bold py-5 text-[#6B3B43] tracking-wider"
+          >
+            {TITLE}
+          </div>
+          <div class="text-sm sm:text-md font-semibold pb-5 text-[#6B3B43] ">
+            {DESCRTIPTION}
+          </div>
+          <Button {connection} />
 
-        <div class=" tracking-widest font-bold text-sm pt-3 text-[#6B3B43]">
-          {itemsRedeemed}/{itemsAvailable} claimed
-        </div>
-        <div class="flex flex-col pt-3">
-          {#if $userState.solanaExplorerLink}
-            <a
-              href={$userState.solanaExplorerLink}
-              target="_blank"
-              class="text-[#6B3B43] font-semibold  p-1"
-              >View on Solana Explorer</a
-            >
-          {/if}
+          <div class=" tracking-widest font-bold text-sm pt-3 text-[#6B3B43]">
+            {itemsRedeemed}/{itemsAvailable} claimed
+          </div>
+          <div class="flex flex-col pt-3">
+            {#if $userState.solanaExplorerLink}
+              <a
+                href={$userState.solanaExplorerLink}
+                target="_blank"
+                class="text-[#6B3B43] font-semibold  p-1"
+                >View on Solana Explorer</a
+              >
+            {/if}
+          </div>
         </div>
       </div>
-    </div>
-    <Countdown />
+      <Countdown />
+    {/if}
     <div class="h-48" />
     <Roadmap />
+    <FooterLinks />
     <div class="h-24" />
   {/if}
 </main>
