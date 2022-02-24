@@ -1,5 +1,5 @@
 <div
-  class="h-36 text-3xl    sm:text-xl  pt-16 text-[#6B3B43] text-center font-concert-one  "
+  class="h-36 text-3xl sm:text-xl pt-16 text-[#6B3B43] text-center font-concert-one  "
 >
   About Kawaii NFTs
 </div>

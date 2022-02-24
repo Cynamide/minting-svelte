@@ -16,9 +16,10 @@
   import NavBar from "./components/NavBar/NavBar.svelte";
   import UpperBody from "./components/UpperBody/UpperBody.svelte";
   import ImageScroll from "./components/ImageScroll/ImageScroll.svelte";
-  import Roadmap from "./components/Roadmap/Roadmap.svelte";
+  import HowItWorks from "./components/HowItWorks/HowItWorks.svelte";
   import Countdown from "./components/Countdown/Countdown.svelte";
   import FooterLinks from "./FooterLinks/FooterLinks.svelte";
+  import Roadmap from "./components/Roadmap/Roadmap.svelte";
 
   /***********************************/
   // Customise the app by changing the following variables.
@@ -174,6 +175,7 @@
     {/if}
     <div class="h-48" />
     <Roadmap />
+    <HowItWorks />
     <FooterLinks />
     <div class="h-24" />
   {/if}
